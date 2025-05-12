@@ -1,4 +1,2 @@
 litetext
 en ändring i den nya filen
-ett tillägg från github
-det här är en ändring från kodeditorn
