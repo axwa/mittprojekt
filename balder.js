@@ -22,6 +22,9 @@ function ellipse(x, y, radiusX, radiusY, color = "black", lineWidth) {
 function circle(x, y, radius, color, lineWidth) {
     ellipse(x, y, radius, radius, color, lineWidth);
 }
+function circle2(x, y, radius, color, lineWidth) {
+    ellipse(x, y, radius, radius, color, 10);
+}
 function clear(x = 0, y = 0, width = W, height = H) {
     ctx.clearRect(x, y, width, height);
 }
