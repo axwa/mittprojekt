@@ -119,6 +119,15 @@ function circle(
     ellipse(x, y, radius, radius, color, lineWidth);
 }
 
+function circle2(
+    x: number, y: number,
+    radius: number,
+    color?: string,
+    lineWidth?: number
+) {
+    ellipse(x, y, radius, radius, color, 10);
+}
+
 /**
  * Clears the canvas.
  * @example 
